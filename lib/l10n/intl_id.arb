@@ -98,7 +98,7 @@
     "type": "String",
     "placeholders": {}
   },
-  "inviteText": "{username} mengundang kamu ke FluffyChat. \n1. Kunjungi fluffychat.im dan instal aplikasi\n2. Daftar atau masuk \n3. Buka tautan undangan: \n {link}",
+  "inviteText": "{username} mengundang kamu ke FurryChat. \n1. Kunjungi furrychat.im dan instal aplikasi\n2. Daftar atau masuk \n3. Buka tautan undangan: \n {link}",
   "@inviteText": {
     "type": "String",
     "placeholders": {
@@ -247,8 +247,8 @@
     "type": "String",
     "placeholders": {}
   },
-  "fluffychat": "FluffyChat",
-  "@fluffychat": {
+  "furrychat": "FurryChat",
+  "@furrychat": {
     "type": "String",
     "placeholders": {}
   },
@@ -991,8 +991,8 @@
     "type": "String",
     "placeholders": {}
   },
-  "newMessageInFluffyChat": "💬 Pesan baru di FluffyChat",
-  "@newMessageInFluffyChat": {
+  "newMessageInFurryChat": "💬 Pesan baru di FurryChat",
+  "@newMessageInFurryChat": {
     "type": "String",
     "placeholders": {}
   },
@@ -1399,7 +1399,7 @@
     "type": "String",
     "placeholders": {}
   },
-  "title": "FluffyChat",
+  "title": "FurryChat",
   "@title": {
     "description": "Title for the application",
     "type": "String",

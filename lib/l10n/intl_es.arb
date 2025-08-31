@@ -624,8 +624,8 @@
     "type": "String",
     "placeholders": {}
   },
-  "fluffychat": "FluffyChat",
-  "@fluffychat": {
+  "furrychat": "FurryChat",
+  "@furrychat": {
     "type": "String",
     "placeholders": {}
   },
@@ -756,7 +756,7 @@
     "type": "String",
     "placeholders": {}
   },
-  "inviteText": "{username} te invitó a FluffyChat.\n1.Visita fluffychat.im e instala la app\n2. Regístrate o inicia sesión\n3. Abre el enlace de invitación:\n{link}",
+  "inviteText": "{username} te invitó a FurryChat.\n1.Visita fluffychat.im e instala la app\n2. Regístrate o inicia sesión\n3. Abre el enlace de invitación:\n{link}",
   "@inviteText": {
     "type": "String",
     "placeholders": {
@@ -903,8 +903,8 @@
     "type": "String",
     "placeholders": {}
   },
-  "newMessageInFluffyChat": "Nuevo mensaje en FluffyChat",
-  "@newMessageInFluffyChat": {
+  "newMessageInFurryChat": "Nuevo mensaje en FurryChat",
+  "@newMessageInFurryChat": {
     "type": "String",
     "placeholders": {}
   },

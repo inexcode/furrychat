@@ -436,7 +436,7 @@
     "type": "String",
     "placeholders": {}
   },
-  "fluffychat": "பஞ்சுபோன்ற",
+  "furrychat": "பஞ்சுபோன்ற",
   "@fluffychat": {
     "type": "String",
     "placeholders": {}

@@ -5,20 +5,20 @@ import 'package:go_router/go_router.dart';
 import 'package:matrix/matrix.dart' as sdk;
 import 'package:matrix/matrix.dart';
 
-import 'package:fluffychat/config/app_config.dart';
-import 'package:fluffychat/config/themes.dart';
-import 'package:fluffychat/l10n/l10n.dart';
-import 'package:fluffychat/pages/chat_list/chat_list_item.dart';
-import 'package:fluffychat/pages/chat_list/search_title.dart';
-import 'package:fluffychat/utils/localized_exception_extension.dart';
-import 'package:fluffychat/utils/stream_extension.dart';
-import 'package:fluffychat/widgets/adaptive_dialogs/public_room_dialog.dart';
-import 'package:fluffychat/widgets/adaptive_dialogs/show_modal_action_popup.dart';
-import 'package:fluffychat/widgets/adaptive_dialogs/show_ok_cancel_alert_dialog.dart';
-import 'package:fluffychat/widgets/adaptive_dialogs/show_text_input_dialog.dart';
-import 'package:fluffychat/widgets/avatar.dart';
-import 'package:fluffychat/widgets/future_loading_dialog.dart';
-import 'package:fluffychat/widgets/matrix.dart';
+import 'package:furrychat/config/app_config.dart';
+import 'package:furrychat/config/themes.dart';
+import 'package:furrychat/l10n/l10n.dart';
+import 'package:furrychat/pages/chat_list/chat_list_item.dart';
+import 'package:furrychat/pages/chat_list/search_title.dart';
+import 'package:furrychat/utils/localized_exception_extension.dart';
+import 'package:furrychat/utils/stream_extension.dart';
+import 'package:furrychat/widgets/adaptive_dialogs/public_room_dialog.dart';
+import 'package:furrychat/widgets/adaptive_dialogs/show_modal_action_popup.dart';
+import 'package:furrychat/widgets/adaptive_dialogs/show_ok_cancel_alert_dialog.dart';
+import 'package:furrychat/widgets/adaptive_dialogs/show_text_input_dialog.dart';
+import 'package:furrychat/widgets/avatar.dart';
+import 'package:furrychat/widgets/future_loading_dialog.dart';
+import 'package:furrychat/widgets/matrix.dart';
 
 enum AddRoomType { chat, subspace }
 

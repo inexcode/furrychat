@@ -825,8 +825,8 @@
     "type": "String",
     "placeholders": {}
   },
-  "fluffychat": "FluffyChat",
-  "@fluffychat": {
+  "furrychat": "FurryChat",
+  "@furrychat": {
     "type": "String",
     "placeholders": {}
   },
@@ -997,7 +997,7 @@
     "type": "String",
     "placeholders": {}
   },
-  "inviteText": "{username} hat Dich zu FluffyChat eingeladen. \n1. Gehe auf fluffychat.im und installiere die App \n2. Melde Dich in der App an \n3. Öffne den Einladungslink: \n {link}",
+  "inviteText": "{username} hat Dich zu FurryChat eingeladen. \n1. Gehe auf fluffychat.im und installiere die App \n2. Melde Dich in der App an \n3. Öffne den Einladungslink: \n {link}",
   "@inviteText": {
     "type": "String",
     "placeholders": {
@@ -1169,8 +1169,8 @@
     "type": "String",
     "placeholders": {}
   },
-  "newMessageInFluffyChat": "💬 Neue Nachricht in FluffyChat",
-  "@newMessageInFluffyChat": {
+  "newMessageInFurryChat": "💬 Neue Nachricht in FurryChat",
+  "@newMessageInFurryChat": {
     "type": "String",
     "placeholders": {}
   },
@@ -1779,7 +1779,7 @@
     "type": "String",
     "placeholders": {}
   },
-  "title": "FluffyChat",
+  "title": "FurryChat",
   "@title": {
     "description": "Title for the application",
     "type": "String",
@@ -2360,7 +2360,7 @@
   "@storeInSecureStorageDescription": {},
   "storeInAppleKeyChain": "Im Apple KeyChain speichern",
   "@storeInAppleKeyChain": {},
-  "indexedDbErrorLong": "Die Nachrichtenspeicherung ist im privaten Modus standardmäßig leider nicht aktiviert.\nBitte besuche\n- about:config\n- Setze dom.indexedDB.privateBrowsing.enabled auf true\nAndernfalls ist es nicht möglich, FluffyChat auszuführen.",
+  "indexedDbErrorLong": "Die Nachrichtenspeicherung ist im privaten Modus standardmäßig leider nicht aktiviert.\nBitte besuche\n- about:config\n- Setze dom.indexedDB.privateBrowsing.enabled auf true\nAndernfalls ist es nicht möglich, FurryChat auszuführen.",
   "@indexedDbErrorLong": {},
   "confirmMatrixId": "Bitte bestätigen deine Matrix-ID, um dein Konto zu löschen.",
   "@confirmMatrixId": {},

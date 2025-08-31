@@ -826,8 +826,8 @@
     "type": "String",
     "placeholders": {}
   },
-  "fluffychat": "FluffyChat",
-  "@fluffychat": {
+  "furrychat": "FurryChat",
+  "@furrychat": {
     "type": "String",
     "placeholders": {}
   },
@@ -998,7 +998,7 @@
     "type": "String",
     "placeholders": {}
   },
-  "inviteText": "{username} kutsus sind kasutama Matrix'i-põhist suhtlusrakendust FluffyChat. \n1. Ava fluffychat.im ja paigalda FluffyChat'i rakendus \n2. Liitu kasutajaks või logi sisse olemasoleva Matrix'i kasutajakontoga\n3. Ava kutse link: \n {link}",
+  "inviteText": "{username} kutsus sind kasutama Matrix'i-põhist suhtlusrakendust FurryChat. \n1. Ava fluffychat.im ja paigalda FurryChat'i rakendus \n2. Liitu kasutajaks või logi sisse olemasoleva Matrix'i kasutajakontoga\n3. Ava kutse link: \n {link}",
   "@inviteText": {
     "type": "String",
     "placeholders": {
@@ -1170,7 +1170,7 @@
     "type": "String",
     "placeholders": {}
   },
-  "newMessageInFluffyChat": "💬 Uus sõnum FluffyChat'i vahendusel",
+  "newMessageInFurryChat": "💬 Uus sõnum FurryChat'i vahendusel",
   "@newMessageInFluffyChat": {
     "type": "String",
     "placeholders": {}

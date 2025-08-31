@@ -518,8 +518,8 @@
     "type": "String",
     "placeholders": {}
   },
-  "fluffychat": "FluffyChat",
-  "@fluffychat": {
+  "furrychat": "FurryChat",
+  "@furrychat": {
     "type": "String",
     "placeholders": {}
   },
@@ -635,7 +635,7 @@
     "type": "String",
     "placeholders": {}
   },
-  "inviteText": "{username}(e)k FluffyChatera gonbidatu zaitu.\n1. Bisitatu https://fluffychat.im eta instalatu aplikazioa\n2. Eman izena edo hasi saioa\n3. Ireki gonbidapen-esteka:\n{link}",
+  "inviteText": "{username}(e)k FurryChatera gonbidatu zaitu.\n1. Bisitatu https://fluffychat.im eta instalatu aplikazioa\n2. Eman izena edo hasi saioa\n3. Ireki gonbidapen-esteka:\n{link}",
   "@inviteText": {
     "type": "String",
     "placeholders": {
@@ -777,8 +777,8 @@
     "type": "String",
     "placeholders": {}
   },
-  "newMessageInFluffyChat": "💬 Mezu berria FluffyChaten",
-  "@newMessageInFluffyChat": {
+  "newMessageInFurryChat": "💬 Mezu berria FurryChaten",
+  "@newMessageInFurryChat": {
     "type": "String",
     "placeholders": {}
   },

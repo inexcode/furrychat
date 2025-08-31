@@ -158,7 +158,7 @@
       }
     }
   },
-  "fluffychat": "FluffyChat",
+  "furrychat": "FluffyChat",
   "@fluffychat": {
     "type": "String",
     "placeholders": {}

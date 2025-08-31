@@ -830,8 +830,8 @@
     "type": "String",
     "placeholders": {}
   },
-  "fluffychat": "FluffyChat",
-  "@fluffychat": {
+  "furrychat": "FurryChat",
+  "@furrychat": {
     "type": "String",
     "placeholders": {}
   },
@@ -1002,7 +1002,7 @@
     "type": "String",
     "placeholders": {}
   },
-  "inviteText": "{username} sizi FluffyChat'e davet etti.\n1. fluffychat.im adresini ziyaret edin ve uygulamayı kurun \n2. Kaydolun veya oturum açın \n3. Davet bağlantısını açın: \n {link}",
+  "inviteText": "{username} sizi FurryChat'e davet etti.\n1. fluffychat.im adresini ziyaret edin ve uygulamayı kurun \n2. Kaydolun veya oturum açın \n3. Davet bağlantısını açın: \n {link}",
   "@inviteText": {
     "type": "String",
     "placeholders": {
@@ -1174,7 +1174,7 @@
     "type": "String",
     "placeholders": {}
   },
-  "newMessageInFluffyChat": "💬 FluffyChat'te yeni mesaj",
+  "newMessageInFurryChat": "💬 FurryChat'te yeni mesaj",
   "@newMessageInFluffyChat": {
     "type": "String",
     "placeholders": {}

@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 
-import 'package:fluffychat/config/app_config.dart';
-import 'package:fluffychat/config/themes.dart';
+import 'package:furrychat/config/app_config.dart';
+import 'package:furrychat/config/themes.dart';
 
 Future<T?> showScaffoldDialog<T>({
   required BuildContext context,

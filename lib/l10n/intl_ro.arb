@@ -548,7 +548,7 @@
     "type": "String",
     "placeholders": {}
   },
-  "fluffychat": "FluffyChat",
+  "furrychat": "FurryChat",
   "@fluffychat": {
     "type": "String",
     "placeholders": {}
@@ -706,7 +706,7 @@
     "type": "String",
     "placeholders": {}
   },
-  "title": "FluffyChat",
+  "title": "FurryChat",
   "@title": {
     "description": "Title for the application",
     "type": "String",

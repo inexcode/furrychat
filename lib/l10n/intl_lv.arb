@@ -162,7 +162,7 @@
   },
   "messageType": "Ziņas veids",
   "@messageType": {},
-  "indexedDbErrorLong": "Diemžēl ziņu krātuve pēc noklusējuma nav iespējota privātajā režīmā.\nLūgums apmeklēt\n - about:config\n - iestatīt dom.indexedDB.privateBrowsing.enabled kā true\nPretējā gadījumā nav iespējams palaist FluffyChat.",
+  "indexedDbErrorLong": "Diemžēl ziņu krātuve pēc noklusējuma nav iespējota privātajā režīmā.\nLūgums apmeklēt\n - about:config\n - iestatīt dom.indexedDB.privateBrowsing.enabled kā true\nPretējā gadījumā nav iespējams palaist FurryChat.",
   "@indexedDbErrorLong": {},
   "oneClientLoggedOut": "Viens no klientiem ir atteicies",
   "@oneClientLoggedOut": {},
@@ -714,7 +714,7 @@
     "type": "String",
     "placeholders": {}
   },
-  "inviteText": "{username} uzaicināja pievienoties FluffyChat.\n1. Jāapmeklē fluffychat.im un jāuzstāda lietotne \n2. Jāizveido konts vai jāpiesakās \n3. Jāatver uzaicinājuma saite: \n {link}",
+  "inviteText": "{username} uzaicināja pievienoties FluffyChat.\n1. Jāapmeklē furrychat.im un jāuzstāda lietotne \n2. Jāizveido konts vai jāpiesakās \n3. Jāatver uzaicinājuma saite: \n {link}",
   "@inviteText": {
     "type": "String",
     "placeholders": {
@@ -1774,8 +1774,8 @@
   },
   "unverified": "Neapliecināta",
   "@unverified": {},
-  "fluffychat": "FluffyChat",
-  "@fluffychat": {
+  "furrychat": "FluffyChat",
+  "@furrychat": {
     "type": "String",
     "placeholders": {}
   },

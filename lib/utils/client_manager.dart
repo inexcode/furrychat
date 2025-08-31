@@ -11,13 +11,13 @@ import 'package:matrix/matrix.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 import 'package:universal_html/html.dart' as html;
 
-import 'package:fluffychat/config/app_config.dart';
-import 'package:fluffychat/config/setting_keys.dart';
-import 'package:fluffychat/l10n/l10n.dart';
-import 'package:fluffychat/utils/custom_http_client.dart';
-import 'package:fluffychat/utils/custom_image_resizer.dart';
-import 'package:fluffychat/utils/init_with_restore.dart';
-import 'package:fluffychat/utils/platform_infos.dart';
+import 'package:furrychat/config/app_config.dart';
+import 'package:furrychat/config/setting_keys.dart';
+import 'package:furrychat/l10n/l10n.dart';
+import 'package:furrychat/utils/custom_http_client.dart';
+import 'package:furrychat/utils/custom_image_resizer.dart';
+import 'package:furrychat/utils/init_with_restore.dart';
+import 'package:furrychat/utils/platform_infos.dart';
 import 'matrix_sdk_extensions/flutter_matrix_dart_sdk_database/builder.dart';
 
 abstract class ClientManager {

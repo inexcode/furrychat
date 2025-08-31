@@ -528,8 +528,8 @@
     "type": "String",
     "placeholders": {}
   },
-  "fluffychat": "فلافي-شات",
-  "@fluffychat": {
+  "furrychat": "فلافي-شات",
+  "@furrychat": {
     "type": "String",
     "placeholders": {}
   },
@@ -650,7 +650,7 @@
     "type": "String",
     "placeholders": {}
   },
-  "inviteText": "دعاك {username} إلى FluffyChat.\n1. قم بزيارة موقع fluffychat.im وقم بتثبيت التطبيق\n2. قم بإنشاءحساب أو تسجيل الدخول\n3. افتح رابط الدعوة:\n {link}",
+  "inviteText": "دعاك {username} إلى FurryChat.\n1. قم بزيارة موقع fluffychat.im وقم بتثبيت التطبيق\n2. قم بإنشاءحساب أو تسجيل الدخول\n3. افتح رابط الدعوة:\n {link}",
   "@inviteText": {
     "type": "String",
     "placeholders": {
@@ -792,8 +792,8 @@
     "type": "String",
     "placeholders": {}
   },
-  "newMessageInFluffyChat": "💬 رسالة جديدة في FluffyChat",
-  "@newMessageInFluffyChat": {
+  "newMessageInFurryChat": "💬 رسالة جديدة في FurryChat",
+  "@newMessageInFurryChat": {
     "type": "String",
     "placeholders": {}
   },
@@ -2345,7 +2345,7 @@
   "@screenSharingTitle": {},
   "appearOnTop": "يظهر في الأعلى",
   "@appearOnTop": {},
-  "otherCallingPermissions": "الميكروفون والكاميرا وأذونات FluffyChat الأخرى",
+  "otherCallingPermissions": "الميكروفون والكاميرا وأذونات FurryChat الأخرى",
   "@otherCallingPermissions": {},
   "enterSpace": "أدخل المساحة",
   "@enterSpace": {},

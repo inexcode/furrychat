@@ -500,7 +500,7 @@
     "type": "String",
     "placeholders": {}
   },
-  "fluffychat": "FluffyChat",
+  "furrychat": "FluffyChat",
   "@fluffychat": {
     "type": "String",
     "placeholders": {}

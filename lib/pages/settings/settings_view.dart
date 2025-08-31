@@ -4,14 +4,14 @@ import 'package:go_router/go_router.dart';
 import 'package:matrix/matrix.dart';
 import 'package:url_launcher/url_launcher_string.dart';
 
-import 'package:fluffychat/config/app_config.dart';
-import 'package:fluffychat/config/themes.dart';
-import 'package:fluffychat/l10n/l10n.dart';
-import 'package:fluffychat/utils/fluffy_share.dart';
-import 'package:fluffychat/utils/platform_infos.dart';
-import 'package:fluffychat/widgets/avatar.dart';
-import 'package:fluffychat/widgets/matrix.dart';
-import 'package:fluffychat/widgets/navigation_rail.dart';
+import 'package:furrychat/config/app_config.dart';
+import 'package:furrychat/config/themes.dart';
+import 'package:furrychat/l10n/l10n.dart';
+import 'package:furrychat/utils/fluffy_share.dart';
+import 'package:furrychat/utils/platform_infos.dart';
+import 'package:furrychat/widgets/avatar.dart';
+import 'package:furrychat/widgets/matrix.dart';
+import 'package:furrychat/widgets/navigation_rail.dart';
 import '../../widgets/mxc_image_viewer.dart';
 import 'settings.dart';
 

@@ -34,8 +34,8 @@
     "type": "String",
     "placeholders": {}
   },
-  "fluffychat": "FluffyChat",
-  "@fluffychat": {
+  "furrychat": "FurryChat",
+  "@furrychat": {
     "type": "String",
     "placeholders": {}
   },
@@ -873,8 +873,8 @@
     "type": "String",
     "placeholders": {}
   },
-  "newMessageInFluffyChat": "💬 Nauja žinutė FluffyChat'e",
-  "@newMessageInFluffyChat": {
+  "newMessageInFurryChat": "💬 Nauja žinutė FurryChat'e",
+  "@newMessageInFurryChat": {
     "type": "String",
     "placeholders": {}
   },
@@ -1275,7 +1275,7 @@
     "type": "String",
     "placeholders": {}
   },
-  "title": "FluffyChat",
+  "title": "FurryChat",
   "@title": {
     "description": "Title for the application",
     "type": "String",
@@ -1311,7 +1311,7 @@
     "type": "String",
     "placeholders": {}
   },
-  "noGoogleServicesWarning": "Atrodo, kad jūsų telefone nėra Google Services. Tai geras sprendimas jūsų privatumui! Norėdami gauti tiesioginius pranešimus FluffyChat, rekomenduojame naudoti https://microg.org/ arba https://unifiedpush.org/.",
+  "noGoogleServicesWarning": "Atrodo, kad jūsų telefone nėra Google Services. Tai geras sprendimas jūsų privatumui! Norėdami gauti tiesioginius pranešimus FurryChat, rekomenduojame naudoti https://microg.org/ arba https://unifiedpush.org/.",
   "@noGoogleServicesWarning": {
     "type": "String",
     "placeholders": {}

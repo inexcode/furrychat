@@ -829,7 +829,7 @@
     "type": "String",
     "placeholders": {}
   },
-  "fluffychat": "FluffyChat",
+  "furrychat": "FurryChat",
   "@fluffychat": {
     "type": "String",
     "placeholders": {}
@@ -1001,7 +1001,7 @@
     "type": "String",
     "placeholders": {}
   },
-  "inviteText": "{username} heeft je uitgenodigd voor FluffyChat.\n1. Bezoek https://fluffychat.im en installeer de app\n2. Registreer of log in\n3. Open deze uitnodigingslink:\n{link}",
+  "inviteText": "{username} heeft je uitgenodigd voor FurryChat.\n1. Bezoek https://fluffychat.im en installeer de app\n2. Registreer of log in\n3. Open deze uitnodigingslink:\n{link}",
   "@inviteText": {
     "type": "String",
     "placeholders": {

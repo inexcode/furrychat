@@ -3,8 +3,8 @@ import 'package:flutter/services.dart';
 
 import 'package:share_plus/share_plus.dart';
 
-import 'package:fluffychat/l10n/l10n.dart';
-import 'package:fluffychat/utils/platform_infos.dart';
+import 'package:furrychat/l10n/l10n.dart';
+import 'package:furrychat/utils/platform_infos.dart';
 import '../widgets/matrix.dart';
 
 abstract class FluffyShare {

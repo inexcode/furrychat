@@ -1,5 +1,5 @@
-//import 'package:fluffychat/pages/homeserver_picker.dart';
-//import 'package:fluffychat/main.dart';
+//import 'package:furrychat/pages/homeserver_picker.dart';
+//import 'package:furrychat/main.dart';
 
 import 'package:flutter_test/flutter_test.dart';
 

@@ -10,12 +10,12 @@ import 'package:flutter_shortcuts_new/flutter_shortcuts_new.dart';
 import 'package:matrix/matrix.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 
-import 'package:fluffychat/config/app_config.dart';
-import 'package:fluffychat/l10n/l10n.dart';
-import 'package:fluffychat/utils/client_download_content_extension.dart';
-import 'package:fluffychat/utils/client_manager.dart';
-import 'package:fluffychat/utils/matrix_sdk_extensions/matrix_locals.dart';
-import 'package:fluffychat/utils/platform_infos.dart';
+import 'package:furrychat/config/app_config.dart';
+import 'package:furrychat/l10n/l10n.dart';
+import 'package:furrychat/utils/client_download_content_extension.dart';
+import 'package:furrychat/utils/client_manager.dart';
+import 'package:furrychat/utils/matrix_sdk_extensions/matrix_locals.dart';
+import 'package:furrychat/utils/platform_infos.dart';
 
 const notificationAvatarDimension = 128;
 

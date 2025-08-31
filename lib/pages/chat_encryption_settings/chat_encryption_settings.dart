@@ -4,11 +4,11 @@ import 'package:go_router/go_router.dart';
 import 'package:matrix/encryption.dart';
 import 'package:matrix/matrix.dart';
 
-import 'package:fluffychat/l10n/l10n.dart';
-import 'package:fluffychat/pages/chat_encryption_settings/chat_encryption_settings_view.dart';
-import 'package:fluffychat/widgets/adaptive_dialogs/show_ok_cancel_alert_dialog.dart';
-import 'package:fluffychat/widgets/future_loading_dialog.dart';
-import 'package:fluffychat/widgets/matrix.dart';
+import 'package:furrychat/l10n/l10n.dart';
+import 'package:furrychat/pages/chat_encryption_settings/chat_encryption_settings_view.dart';
+import 'package:furrychat/widgets/adaptive_dialogs/show_ok_cancel_alert_dialog.dart';
+import 'package:furrychat/widgets/future_loading_dialog.dart';
+import 'package:furrychat/widgets/matrix.dart';
 import '../key_verification/key_verification_dialog.dart';
 
 class ChatEncryptionSettings extends StatefulWidget {

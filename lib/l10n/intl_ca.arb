@@ -624,7 +624,7 @@
     "type": "String",
     "placeholders": {}
   },
-  "fluffychat": "FluffyChat",
+  "furrychat": "FurryChat",
   "@fluffychat": {
     "type": "String",
     "placeholders": {}
@@ -766,7 +766,7 @@
     "type": "String",
     "placeholders": {}
   },
-  "inviteText": "{username} t'ha convidat a FluffyChat.\n1. Visita fluffychat.im i instaŀla l'app\n2. Registra't o inicia sessió\n3. Obre l'enllaç d'invitació:\n{link}",
+  "inviteText": "{username} t'ha convidat a FurryChat.\n1. Visita fluffychat.im i instaŀla l'app\n2. Registra't o inicia sessió\n3. Obre l'enllaç d'invitació:\n{link}",
   "@inviteText": {
     "type": "String",
     "placeholders": {
@@ -928,7 +928,7 @@
     "type": "String",
     "placeholders": {}
   },
-  "newMessageInFluffyChat": "💬 Missatge nou al FluffyChat",
+  "newMessageInFurryChat": "💬 Missatge nou al FluffyChat",
   "@newMessageInFluffyChat": {
     "type": "String",
     "placeholders": {}
