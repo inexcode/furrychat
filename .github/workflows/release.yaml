@@ -34,20 +34,20 @@ jobs:
       - name: Build Release Web
         run: flutter build web --dart-define=FLUTTER_WEB_CANVASKIT_URL=canvaskit/ --release --source-maps --base-href "/web/"
       - name: Create archive
-        run: tar -czf fluffychat-web.tar.gz build/web/
+        run: tar -czf furrychat-web.tar.gz build/web/
       - name: Upload Web Build
         uses: actions/upload-artifact@v4
         with:
           name: Web Build
-          path: fluffychat-web.tar.gz
+          path: furrychat-web.tar.gz
       - name: Upload to release
         uses: actions/upload-release-asset@v1
         env:
           GITHUB_TOKEN: ${{ secrets.PAGES_DEPLOY_TOKEN }}
         with:
           upload_url: ${{ github.event.release.upload_url }}
-          asset_path: fluffychat-web.tar.gz
-          asset_name: fluffychat-web.tar.gz
+          asset_path: furrychat-web.tar.gz
+          asset_name: furrychat-web.tar.gz
           asset_content_type: application/gzip
       - name: Install and build tailwindcss
         working-directory: docs
@@ -92,7 +92,6 @@ jobs:
         env:
           FDROID_KEY: ${{ secrets.FDROID_KEY }}
           FDROID_KEY_PASS: ${{ secrets.FDROID_KEY_PASS }}
-          PLAYSTORE_DEPLOY_KEY: ${{ secrets.PLAYSTORE_DEPLOY_KEY }}
         run: ./scripts/prepare-android-release.sh
       - run: flutter build apk --release
       - name: Upload to release
@@ -102,7 +101,7 @@ jobs:
         with:
           upload_url: ${{ github.event.release.upload_url }}
           asset_path: build/app/outputs/apk/release/app-release.apk
-          asset_name: fluffychat.apk
+          asset_name: furrychat.apk
           asset_content_type: application/vnd.android.package-archive
 
   build_linux:
@@ -123,13 +122,13 @@ jobs:
       - run: ./flutter/bin/flutter pub get
       - run: ./flutter/bin/flutter build linux --target-platform linux-${{ matrix.arch }}
       - name: Create archive
-        run: tar -czf fluffychat-linux-${{ matrix.arch }}.tar.gz -C build/linux/${{ matrix.arch }}/release/bundle/ .
+        run: tar -czf furrychat-linux-${{ matrix.arch }}.tar.gz -C build/linux/${{ matrix.arch }}/release/bundle/ .
       - name: Upload to release
         uses: actions/upload-release-asset@v1
         env:
           GITHUB_TOKEN: ${{ secrets.PAGES_DEPLOY_TOKEN }}
         with:
           upload_url: ${{ github.event.release.upload_url }}
-          asset_path: fluffychat-linux-${{ matrix.arch }}.tar.gz
-          asset_name: fluffychat-linux-${{ matrix.arch }}.tar.gz
+          asset_path: furrychat-linux-${{ matrix.arch }}.tar.gz
+          asset_name: furrychat-linux-${{ matrix.arch }}.tar.gz
           asset_content_type: application/gzip
