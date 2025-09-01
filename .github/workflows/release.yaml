@@ -67,7 +67,7 @@ jobs:
           personal_token: ${{ secrets.PAGES_DEPLOY_TOKEN }}
           publish_dir: ./public
           publish_branch: gh-pages
-          cname: fluffychat.im
+          cname: furrychat.inex.dev
 
   build_apk:
     runs-on: ubuntu-latest
@@ -133,82 +133,3 @@ jobs:
           asset_path: fluffychat-linux-${{ matrix.arch }}.tar.gz
           asset_name: fluffychat-linux-${{ matrix.arch }}.tar.gz
           asset_content_type: application/gzip
-
-  deploy_playstore:
-    runs-on: ubuntu-latest
-    steps:
-      - uses: actions/checkout@v5
-      - run: cat .github/workflows/versions.env >> $GITHUB_ENV
-      - uses: actions/setup-java@v4
-        with:
-          java-version: ${{ env.JAVA_VERSION }}
-          distribution: 'zulu'
-      - uses: subosito/flutter-action@v2
-        with:
-          flutter-version: ${{ env.FLUTTER_VERSION }}
-          cache: true
-      - name: Set up Ruby
-        uses: ruby/setup-ruby@v1
-        with:
-          ruby-version: '3.3'
-      - uses: moonrepo/setup-rust@v1
-      - name: Install Fastlane
-        working-directory: android
-        run: gem install fastlane -NV
-      - name: Add Firebase Messaging
-        run: |
-          echo '${{secrets.GOOGLE_SERVICES_JSON}}' | base64 -d > android/app/google-services.json
-          ./scripts/add-firebase-messaging.sh
-      - run: flutter pub get
-      - name: Prepare Android Release Build
-        env:
-          FDROID_KEY: ${{ secrets.FDROID_KEY }}
-          FDROID_KEY_PASS: ${{ secrets.FDROID_KEY_PASS }}
-          PLAYSTORE_DEPLOY_KEY: ${{ secrets.PLAYSTORE_DEPLOY_KEY }}
-        run: ./scripts/prepare-android-release.sh
-      - name: Build Android Release
-        run: flutter build appbundle --target-platform android-arm,android-arm64,android-x64
-      - name: Get Tag Name
-        id: tag_name
-        run: echo "::set-output name=tag::$(echo ${GITHUB_REF#refs/tags/})"
-      - name: Deploy Android Release
-        run: |
-          mkdir -p build/android
-          cp build/app/outputs/bundle/release/app-release.aab build/android/
-          cd android
-          bundle install
-          bundle update fastlane
-          bundle exec fastlane deploy_internal_test
-          if [[ $GITHUB_REF_NAME == rc* ]]; then
-              bundle exec fastlane deploy_candidate
-          else
-              bundle exec fastlane deploy_release
-          fi
-          cd ..
-
-  deploy_docker:
-    runs-on: ubuntu-latest
-    permissions:
-      contents: read
-      packages: write
-    steps:
-      - name: Check out Git repository
-        uses: actions/checkout@v5
-      - name: Log in to the Container registry
-        uses: docker/login-action@v3
-        with:
-          registry: ${{ env.REGISTRY }}
-          username: ${{ github.actor }}
-          password: ${{ secrets.GITHUB_TOKEN }}
-      - name: Extract metadata (tags, labels) for Docker
-        id: meta
-        uses: docker/metadata-action@v5
-        with:
-          images: ${{ env.REGISTRY }}/${{ env.IMAGE_NAME }}
-      - name: Build and push Docker image
-        uses: docker/build-push-action@v6
-        with:
-          context: .
-          push: true
-          tags: ${{ steps.meta.outputs.tags }}
-          labels: ${{ steps.meta.outputs.labels }}
